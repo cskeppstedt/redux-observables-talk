@@ -9,7 +9,7 @@
     "react-scripts": "1.0.14",
     "redux": "^3.7.2",
     "redux-actions": "^2.2.1",
-    "redux-observable": "^0.16.0",
+    "redux-observable": "0.16.0",
     "rxjs": "5.4.3",
     "styled-components": "^2.2.2"
   },
