@@ -11,4 +11,6 @@ export default term =>
     headers: {
       Accept: "application/json"
     }
-  }).map(ajaxResponse => ajaxResponse.response);
+  })
+    .delay(2000)
+    .map(ajaxResponse => ajaxResponse.response);
