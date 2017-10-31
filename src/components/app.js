@@ -9,8 +9,11 @@ import styled from "styled-components";
 export default props => (
   <div>
     <Toolbar>
-      <Button onClick={props.startRandomJokeRequest}>Random</Button>
-      <Search onChange={e => console.info(e)} />
+      <Button onClick={() => props.startRandomJokeRequest()}>Random</Button>
+      <Search
+        onChange={e => props.searchTextChanged(e.target.value)}
+        value={props.searchText}
+      />
       {props.isLoading && <Spinner />}
     </Toolbar>
     <Text>{props.text}</Text>
