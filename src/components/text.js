@@ -7,4 +7,7 @@ export default styled.p`
   line-height: 120px;
   margin: 20px;
   padding: 0;
+  ::selection {
+    background: #1abc9c;
+  }
 `;

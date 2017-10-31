@@ -4,7 +4,6 @@ import Search from "./search";
 import Spinner from "./spinner";
 import Text from "./text";
 import Toolbar from "./toolbar";
-import styled from "styled-components";
 
 export default props => (
   <div>

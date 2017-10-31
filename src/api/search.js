@@ -23,5 +23,4 @@ export default term =>
       Accept: "application/json"
     }
   })
-    .delay(2000)
     .map(adaptResponse)
