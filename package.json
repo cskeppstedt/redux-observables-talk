@@ -2,6 +2,7 @@
   "name": "redux-observables-talk",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cskeppstedt.github.io/redux-observables-talk/",
   "dependencies": {
     "qs": "^6.5.1",
     "react": "^16.0.0",
