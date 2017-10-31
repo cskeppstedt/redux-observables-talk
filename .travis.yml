@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '8'
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: build
+  on:
+    branch: master
+env:
+  global:
+    secure: Rkp/IFa2v6FN6FF1H6p2leidYHJkQZ0afBQyYkLPdaxI7iV/wBND3aCA2HNnZWsJoF5vBWr47o5URg9BG5fZFHiigQFL0HtprmbOPwZ3p7eZznt9J/k99KKi8YgKpNHaT432+IAjorHC2vr5MBx/BYpM9u2CV+7v3+8HnaIvD0VExm/IfO4hAtx+GhN0ei8jeKPhdbf4rj5su5QxMwZsGuKiUlYTGatJyQfQiZL98vmJ2IIFmggx11DVzdFm1IqgpRmRXNCG1qLSVTvlYcI8xEvpMjMF4ODb/5vS6ADX2Xs1Mdr0wRKYZlPqO+OankBtVKLRYhpZbjs9urw73yh7Bayn86oa/QFNlosKXJn6/cKEnf20KQZQk+TL478fnshOkVktNvjcyHDIRLhh4NnSBMPYHY7N4+MbPQ/I+dWjYATdxP8sFG9VWyZ5bwmXgDHU+NCNg/BsZM7SDuwfxr8qa5ctO/r9pTXB6l/GsS6Qn9npucE/LXoedmEQmnOGY0GIQ34E0p2O0Y3FDdLjS+Yma0OjCH5T8lGIxS0P96p6d6UEJ3CwOjb1MHgPWC85zqg5GSHgyHlTUi3lP0/gQKY5ks7nUeIzh3D9pSjeMLM+jJVjwffeuowp4gEkHC3SsprT93SelCX2RuTgHSJ1+EplN/CSCI/AdElQP0lggfaHec8=
